@@ -24,11 +24,9 @@ public class AccountDetailsService implements UserDetailsService {
 			throws UsernameNotFoundException {
 		
 		try {
-			System.out.println("findONE!!");
 			Account account = accountService.findOne(userid);
 			return new AccountDetails(account);
 		} catch (ResourceNotFoundException e) {
-			System.out.println(e);
 			throw new UsernameNotFoundException("ユーザが存在しません", e);
 		}
 	}

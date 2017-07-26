@@ -6,9 +6,6 @@ public interface AccountRepository {
 
 	Account findOne(String userid);
 
-	/*
-	void create(Account account);
+	boolean passupdate(Account account);
 
-	boolean update(Account account);
-	*/
 }

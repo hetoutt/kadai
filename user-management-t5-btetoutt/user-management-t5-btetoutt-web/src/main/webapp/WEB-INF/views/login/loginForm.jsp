@@ -7,10 +7,10 @@
 </head>
 <body>
 	<div id="wrapper">
-		<h3>Login with USERID and Password</h3>
+		<h3>Login with Username and Password</h3>
 
 		<c:if test="${f:h(param.error)}">
-			<P> ユーザーID又はパスワードに誤りがあります</P>
+    		<P>ユーザーID又はパスワードに誤りがあります</P>
 			<t:messagesPanel messagesType="error"
 				messagesAttributeName="SPRING_SECURITY_LAST_EXCEPTION" />
 		</c:if>

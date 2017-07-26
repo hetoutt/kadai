@@ -11,8 +11,8 @@ public class AccountDetails extends User {
 	private Account account;
 
 	public AccountDetails(Account account) {
-		super(account.getUserid(), account.getEncodedPassword(), AuthorityUtils
-				.createAuthorityList("ROLE_USER"));
+		super(account.getUserid(), account.getEncodedPassword(),
+				AuthorityUtils.createAuthorityList("ROLE_USER"));
 		this.account = account;
 	}
 

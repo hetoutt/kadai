@@ -28,11 +28,11 @@ public class AccountService {
 		return account;
 	}
 
-	/*
-	public void update(Account account) {
-		accountRespository.update(account);
+	public void passupdate(Account account) {
+		accountRespository.passupdate(account);
 	}
 
+	/*
 	public void create(Account account, String password) {
 
 		account.setEncodedPassword(passwordEncoder.encode(password));
