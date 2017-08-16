@@ -1,7 +1,7 @@
 # kabu
 
 * file 株どん.xmlx
- * 株についてノウハウ
+    * 株についてノウハウ
 
 * file yyyymmdd_SWTS(Swing Trade Screening)
- * スクリーニング結果のノート
+    * スクリーニング結果のノート
